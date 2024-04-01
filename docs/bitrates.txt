@@ -1,0 +1,100 @@
+EncodeMe bitrates information of encoding tools
+
+Written by Martin Eesmaa
+
+-----------------------------------------------
+
+DTS minimum bitrate:
+1 ch 8000hz: 32 kb/s
+1 ch 12000hz: 36 kb/s
+1 ch 16000hz: 48 kb/s
+1 ch 24000hz: 71 kb/s
+1 ch 32000hz: 96 kb/s
+1 ch 48000hz: 144 kb/s
+2 ch 8000hz: 45.5 kb/s
+2 ch 11025hz: 62.6890625 kb/s
+2 ch 12000hz: 68.25 kb/s
+2 ch 16000hz: 91 kb/s
+2 ch 22050hz: 125.378125 kb/s
+2 ch 24000hz: 136.5 kb/s
+2 ch 32000hz: 182 kb/s
+2 ch 44100hz: 250.75625 kb/s
+2 ch 48000hz: 273 kb/s
+4 ch 48000hz: 534 kb/s
+5 ch 48000hz: 666 kb/s
+6 ch 12000hz: 168.25 kb/s
+6 ch 48000hz: 672 kb/s
+
+Note taken from ffdcaenc explanation...
+
+REMARKS:
+The input or output filename can be "-" for stdin/stdout.
+The bitrate is specified in kilobits per second and may be rounded up
+-- use floating-point values for bitrates that are not a multiple of 1 kbps.
+Because the encoder uses a 4-byte granularity, i.e., 32 bits per audio frame
+(with 512 samples/frame), the ACTUAL bitrate will always be a multiple of:
+
+3         kbps for     48 kHz
+2.75625   kbps for   44.1 kHz
+2         kbps for     32 kHz
+1.5       kbps for     24 kHz
+1.378125  kbps for  22.05 kHz
+1         kbps for     16 kHz
+0.75      kbps for     12 kHz
+0.6890625 kbps for 11.025 kHz
+0.5       kbps for      8 kHz
+
+Note when going ups
+
+Dolby AC-3 specified bitrates only:
+Supported bitrates: 32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256, 320, 384, 448, 512, 576, 640
+1 ch 48000hz: Minimum 32 bitrate
+2 / 3 ch 48000hz: Minimum 48 bitrate
+4 ch 48000hz: Minimum 96 bitrate
+5 / 6 ch 48000hz: Minimum 112 bitrate
+
+Aften 1ch default 48khz: 96k
+Aften 2 / 3 ch default 48khz: 192k
+Aften 4ch default 48khz: 384k
+Aften 5 / 6 ch default 48khz: 448k
+
+FFmpeg 1 ch default: 96k
+FFmpeg 2 ch default: 192k
+FFmpeg 3 ch default: 320k
+FFmpeg 4 ch default: 384k
+FFmpeg 5 / 6 ch default: 448k
+
+DVD maximum supported bitrate & only allowed sample rate: 448k (48KHZ)
+Blu-Ray: 640k
+
+Dolby E-AC3 specified bitrates only:
+Supported bitrates: 32, 40, 48, 56, 64, 80, 96, 110, 112, 128, 160, 192, 224, 256, 320, 384, 448, 512, 576, 640 and more...
+
+MP3 specified bitrates only:
+32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256, 320 (MP3 Layer III Version 1, 48000 44100 32000)
+8, 16, 24, 144 additional bitrates (maximum 160k of 24000 22050 16000) (Version 2)
+Maximum 64k of 11025 12000 8000 (Version 2.5)
+
+MP2 specified bitrates only:
+64, 96, 112, 128, 160, 192, 224, 256, 320, 384 (MP2 Layer II Version 1, 48000 44100 32000)
+8, 16, 24, 32, 40, 48, 56, 64, 80, 96, 112, 128, 144, 160 (Version 2, 24000 22050 16000, max 160k)
+
+MP1 specified bitrates only:
+32, 64, 96, 128, 160, 192, 224, 256, 288, 320, 352, 384, 414, 448
+
+Opus specified bitrates only:
+
+All it startes minimum bitrate by 500bps of any channels.
+
+Maximum 256k (Mono)
+Maximum 512k (Stereo)
+Maximum 1536k (Surround 5.1)
+Maximum 2048k (Surround 7.1)
+
+Vorbis:
+32k-240k (Mono)
+45k-500k (Stereo)
+84k-1440k (5.1)
+256k-1920k (7.1)
+
+- Martin Eesmaa
