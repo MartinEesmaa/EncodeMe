@@ -6,20 +6,22 @@ Written by Martin Eesmaa
 
 DTS minimum bitrate:
 1 ch 8000hz: 32 kb/s
+1 ch 11025hz: 33 kb/s
 1 ch 12000hz: 36 kb/s
 1 ch 16000hz: 48 kb/s
 1 ch 24000hz: 71 kb/s
 1 ch 32000hz: 96 kb/s
-1 ch 48000hz: 144 kb/s
-2 ch 8000hz: 45.5 kb/s
-2 ch 11025hz: 62.6890625 kb/s
-2 ch 12000hz: 68.25 kb/s
+1 ch 44100hz: 130 kb/s
+1 ch 48000hz: 142 kb/s
+2 ch 8000hz: 46 kb/s
+2 ch 11025hz: 63 kb/s
+2 ch 12000hz: 68 kb/s
 2 ch 16000hz: 91 kb/s
-2 ch 22050hz: 125.378125 kb/s
-2 ch 24000hz: 136.5 kb/s
+2 ch 22050hz: 125 kb/s
+2 ch 24000hz: 136 kb/s
 2 ch 32000hz: 182 kb/s
-2 ch 44100hz: 250.75625 kb/s
-2 ch 48000hz: 273 kb/s
+2 ch 44100hz: 249 kb/s
+2 ch 48000hz: 271 kb/s
 4 ch 8000hz: 89 kb/s
 4 ch 11025hz: 122 kb/s
 4 ch 12000hz: 133 kb/s
@@ -29,6 +31,14 @@ DTS minimum bitrate:
 4 ch 32000hz: 355 kb/s
 4 ch 44100hz: 488 kb/s
 4 ch 48000hz: 532 kb/s
+5 ch 8000hz: 111 kb/s
+5 ch 11025hz: 153 kb/s
+5 ch 12000hz: 166 kb/s
+5 ch 16000hz: 222 kb/s
+5 ch 22050hz: 305 kb/s
+5 ch 24000hz: 332 kb/s
+5 ch 32000hz: 443 kb/s
+5 ch 44100hz: 610 kb/s
 5 ch 48000hz: 666 kb/s
 6 ch 8000hz: 112 kb/s
 6 ch 11025hz: 154 kb/s
