@@ -20,7 +20,15 @@ DTS minimum bitrate:
 2 ch 32000hz: 182 kb/s
 2 ch 44100hz: 250.75625 kb/s
 2 ch 48000hz: 273 kb/s
-4 ch 48000hz: 534 kb/s
+4 ch 8000hz: 89 kb/s
+4 ch 11025hz: 122 kb/s
+4 ch 12000hz: 133 kb/s
+4 ch 16000hz: 178 kb/s
+4 ch 22050hz: 244 kb/s
+4 ch 24000hz: 266 kb/s
+4 ch 32000hz: 355 kb/s
+4 ch 44100hz: 488 kb/s
+4 ch 48000hz: 532 kb/s
 5 ch 48000hz: 666 kb/s
 6 ch 12000hz: 168.25 kb/s
 6 ch 48000hz: 672 kb/s
