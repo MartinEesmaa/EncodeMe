@@ -30,8 +30,15 @@ DTS minimum bitrate:
 4 ch 44100hz: 488 kb/s
 4 ch 48000hz: 532 kb/s
 5 ch 48000hz: 666 kb/s
-6 ch 12000hz: 168.25 kb/s
-6 ch 48000hz: 672 kb/s
+6 ch 8000hz: 112 kb/s
+6 ch 11025hz: 154 kb/s
+6 ch 12000hz: 168 kb/s
+6 ch 16000hz: 224 kb/s
+6 ch 22050hz: 308 kb/s
+6 ch 24000hz: 335 kb/s
+6 ch 32000hz: 447 kb/s
+6 ch 44100hz: 615 kb/s
+6 ch 48000hz: 670 kb/s
 
 Note taken from ffdcaenc explanation...
 
