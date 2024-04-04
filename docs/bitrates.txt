@@ -109,7 +109,7 @@ MP1 specified bitrates only:
 
 Opus specified bitrates only:
 
-All it startes minimum bitrate by 500bps of any channels.
+All it starts minimum bitrate by 500bps of any channels.
 
 Maximum 256k (Mono)
 Maximum 512k (Stereo)
@@ -121,5 +121,14 @@ Vorbis:
 45k-500k (Stereo)
 84k-1440k (5.1)
 256k-1920k (7.1)
+
+AMR only supports 8khz and mono channel with specified bitrates:
+4.75, 5.15, 5.90, 6.70, 7.40, 7.95, 10.20, 12.20 kbps
+
+AMR-WB supports 16khz with mono & stereo specified bitrates:
+6.60, 8.85, 12.65, 14.25, 15.85, 18.25, 19.85, 23.05, 23.85 kbps
+
+EVS as Enhanced Voice Services specified bitrates:
+5.9, 7.2, 8, 9.6, 13.2, 16.4, 24.4, 32, 48, 64, 96, 128 kbit/s, any AMR-WB bitrates
 
 - Martin Eesmaa

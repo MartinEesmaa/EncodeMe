@@ -88,9 +88,12 @@ External tools are welcome to implement to our tool, includes improvement:
 - MP1 (Uzura)
 - MPEG-4 ALS
 - MPEG-5
-- Musepack (encoder)
+- MPEG-H Encoder (Ittiam Systems)
+- MPEG-H Decoder (Fraunhofer IIS)
+- Musepack
 - NIHAV Encoders
 - Nintendo DSP-ADPCM
+- Nintendo THP
 - Quite OK Audio (encoder)
 - Sac (state-of-the-art codec lossless)
 - WavPack (external)
