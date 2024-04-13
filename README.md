@@ -31,6 +31,7 @@ Also this is construction experimental working on this project since 30th March 
 - Optimizations
 - Scores of calculation tools
 - External tools
+- Lossless video/audio benchmarks
 
 # Detect any fakes
 
@@ -79,6 +80,7 @@ External tools are welcome to implement to our tool, includes improvement:
 - FLACCID (best to minimize FLAC audio of encoder)
 - FLACCL (CUDA Flac Encoder)
 - Flake (Fast Flac Encoder)
+- libdca (DTS Coherent Acoustics decoder)
 - Lagarith (encoder)
 - LC3 Google
 - LC3plus
