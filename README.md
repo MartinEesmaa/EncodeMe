@@ -98,6 +98,7 @@ External tools are welcome to implement to our tool, includes improvement:
 - Nintendo THP
 - Quite OK Audio (encoder)
 - Sac (state-of-the-art codec lossless)
+- SNAC (Multi-Scale Neural Audio Codec)
 - WavPack (external)
 - More tools lists will come later...
 
