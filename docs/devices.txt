@@ -1,0 +1,65 @@
+Compatability to work on native devices
+
+Written by Martin Eesmaa
+
+-----------------------------------------------
+
+Windows:
+
+For Windows versions uses native built in video & audio codecs of container acceptable.
+However it is recommended to use all supported FFmpeg formats using VLC media player, MPV or any compatible media player.
+
+If you want to use Windows Media Player to support all formats, you need to install LAVFilters on your computer.
+For older operating systems, you can still install old LAVFilters, external ACM or VfW codecs.
+
+Note: New native codecs will show of each Windows version, but it includes all supported past old Windows native codecs on new OS. 
+
+-- Media Foundation: ---
+Windows 11 22H2: xHE-AAC (USAC, decode only of stereo maximum)
+Windows 10: HEVC (requires extension of encode/decode), WEB/AV1/MPEG-2 (requires extension of decode), FLAC, Opus, Vorbis/Theora (requires extension of WEB), Matroska container, E-AC3 (decoder only, supports 7.1 channels)
+Windows 8: AC3, E-AC3 (decoder only, max 5.1 channels), MPEG-2 (decoder only)
+Windows 7: AAC (LC coder full, HE-AAC v1/v2 decode only from AAC core), DV (decoder only), H.264, AC3 (plus encoder included it)
+--- DirectShow: ---
+Windows XP: AC3/LPCM/MPEG-2 (only usable to decode for DVD), VC-1, WMV3, WMV9S, MPEG-4 V3, WMA Lossless, WMA Pro
+Windows 98(SE)/ME/2000: WMV1, WMV2, WMAV1, WMAV2
+-- ActionMovie: ---
+Windows 95: MPEG-1, MP1, MP2, MP3, QuickTime (all decoders, but later)
+-- Video for Windows: ---
+Windows 3.1x: Cinepak (later), Microsoft Video 1, Microsoft RLE, Indeo 3.2 (later), WAV, MS ADPCM, IMA ADPCM, Raw Video (.avi container)
+
+
+Xbox 360:
+
+To play compatability supported video or/with audio files on official Xbox 360,
+there are available that can accept:
+
+If you want to play MPEG-4 and AAC, you may need Optional Media Update installed on your console.
+
+Video codecs accepts by:
+H.264, WMV video codecs, MPEG-2 (DVD) and MPEG-4 Part 2
+
+Audio codecs accepts by:
+AAC (LC only, max stereo channels), WMA, MP3, AC-3 (AVI/WMV container only) and LPCM (DVD)
+
+If you want still support possible to support additional codecs, mplayer port of Xbox 360 is available for only jailbroken Xbox 360.
+
+.AVI container:
+
+Video codec: MPEG-4 Part 2, Simple and Advanced Simple Profile
+Video bitrate: 5 megabits per second (Mbps) with resolutions of 1280 x 720 at 30 frames per second (fps)
+Audio profiles: Dolby Digital AC-3 Stereo/5.1 channel, MP3
+
+.MP4/.mov container:
+
+Video codec: H.264 Baseline, main, and high (up to level 4.1) profiles & MPEG-4 Part 2 Simple and Advanced Simple Profile
+Video bitrate: H.264 10 Mbps with resolutions of 1920 x 1080 at 30 fps and MPEG-4 Part 2 5 Mbps with resolutions of 1280 x 720 at 30 fps
+Audio codec: AAC low complexity (LC) Mono or Stereo
+
+.WMV container:
+
+Video codecs: WMV7 (WMV1), WMV8 (WMV2), WMV9 (WMV3), VC-1 (WVC1 or WMVA) in simple, main, and advanced up to level 3
+Video bitrate: 15 Mbps with resolutions of 1920 x 1080 at 30 fps
+Audio codec: WMA7/8, WMA 9 Pro (stereo and 5.1), WMA lossless (mono/stereo is recommended, but 5.1 is glitch slow)
+
+To play video of MPEG-2, you need DVD-Video compatability files on your DVD disc to play on Xbox 360.
+Also it supports Dolby Digital Stereo/5.1 channels to play DVD.
