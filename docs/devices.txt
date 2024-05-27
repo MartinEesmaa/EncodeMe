@@ -27,6 +27,25 @@ Windows 95: MPEG-1, MP1, MP2, MP3, QuickTime (all decoders, but later)
 -- Video for Windows: ---
 Windows 3.1x: Cinepak (later), Microsoft Video 1, Microsoft RLE, Indeo 3.2 (later), WAV, MS ADPCM, IMA ADPCM, Raw Video (.avi container)
 
+Android native hardware codecs via MediaCodec:
+
+Android 14+: AV1
+Android 13+: VP9
+Android 10+: Opus, AV1 (decode only)
+Android 9+: xHE-AAC (decode only)
+Android 7.0+: HEVC
+Android 6.0+: H.264 Main
+Android 5.0+: Opus & HEVC (decode only)
+Android 4.4+: VP9 (decode only)
+Android 4.3+: VP8
+Android 4.1+: HE-AACv1, AAC ELD, FLAC, WAV
+Android 3.1+: FLAC (decode only)
+Android 3.0+: H.264 Baseline
+Android 2.3.3+: VP8 (decode only)
+Android 1.0+: AAC-LC, HE-AACv1 (decode), HE-AACv2 (decode), AMR-NB, AMR-WB, MIDI, MP3 (decode), WAV, Vorbis (decode), H.263, H.264 Baseline/Main (decode only), MPEG-4 SP
+
+Note: Some additional codecs are added by manufacturers to include new codecs.
+Additional codecs available by phone manufacturers: AC3, E-AC3, AC-4, TrueHD, APE, WMV, DTS and DTS-HD.
 
 Xbox 360:
 
