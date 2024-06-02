@@ -15,13 +15,15 @@ For older operating systems, you can still install old LAVFilters, external ACM 
 Note: New native codecs will show of each Windows version, but it includes all supported past old Windows native codecs on new OS. 
 
 -- Media Foundation: ---
+Windows 11 24H2: Removal of Dolby Digital AC-3 (full clean install only, except when it's upgraded from earlier version)
 Windows 11 22H2: xHE-AAC (USAC, decode only of stereo maximum)
 Windows 10: HEVC (requires extension of encode/decode), WEB/AV1/MPEG-2 (requires extension of decode), FLAC, Opus, Vorbis/Theora (requires extension of WEB), Matroska container, E-AC3 (decoder only, supports 7.1 channels)
 Windows 8: AC3, E-AC3 (decoder only, max 5.1 channels), MPEG-2 (decoder only)
-Windows 7: AAC (LC coder full, HE-AAC v1/v2 decode only from AAC core), DV (decoder only), H.264, AC3 (plus encoder included it)
+Windows 7: AAC (LC coder full, HE-AAC v1/v2 decode only from AAC core), DV (decoder only), H.264, DVD (requires Home Premium and later editions, last Windows DVD Maker)
+Windows Vista: AC3 & MPEG-2 (encoder included via only on Windows DVD Maker, Home Premium & Ultimate edition only for full, for additional editions requires DVD decoder)
 --- DirectShow: ---
-Windows XP: AC3/LPCM/MPEG-2 (only usable to decode for DVD), VC-1, WMV3, WMV9S, MPEG-4 V3, WMA Lossless, WMA Pro
-Windows 98(SE)/ME/2000: WMV1, WMV2, WMAV1, WMAV2
+Windows XP: AC3/LPCM/MPEG-2 (only usable to decode for DVD and only MPEG-TS container with MPEG-2 and AC3), requires DVD decoder or installed already on DVD Driver), VC-1, WMV3, WMV9S, MPEG-4 V3, WMA Lossless, WMA Pro
+Windows 98(SE)/ME/2000: WMV1, WMV2, WMAV1, WMAV2, M-JPEG
 -- ActionMovie: ---
 Windows 95: MPEG-1, MP1, MP2, MP3, QuickTime (all decoders, but later)
 -- Video for Windows: ---
