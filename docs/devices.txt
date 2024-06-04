@@ -18,7 +18,7 @@ Note: New native codecs will show of each Windows version, but it includes all s
 Windows 11 24H2: Removal of Dolby Digital AC-3 (full clean install only, except when it's upgraded from earlier version)
 Windows 11 22H2: xHE-AAC (USAC, decode only of stereo maximum)
 Windows 10: HEVC (requires extension of encode/decode), WEB/AV1/MPEG-2 (requires extension of decode), FLAC, Opus, Vorbis/Theora (requires extension of WEB), Matroska container, E-AC3 (decoder only, supports 7.1 channels)
-Windows 8: AC3, E-AC3 (decoder only, max 5.1 channels), MPEG-2 (decoder only)
+Windows 8: AC3, E-AC3 (decoder only, max 5.1 channels)
 Windows 7: AAC (LC coder full, HE-AAC v1/v2 decode only from AAC core), DV (decoder only), H.264, DVD (requires Home Premium and later editions, last Windows DVD Maker)
 Windows Vista: AC3 & MPEG-2 (encoder included via only on Windows DVD Maker, Home Premium & Ultimate edition only for full, for additional editions requires DVD decoder)
 --- DirectShow: ---
