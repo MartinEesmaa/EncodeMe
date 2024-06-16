@@ -1,0 +1,38 @@
+File container of codecs official acceptable
+
+Written by Martin Eesmaa
+
+-----------------------------------------------
+
+WebM (.webm file):
+Video codecs - VP8, VP9, AV1
+Audio codecs - Vorbis, Opus
+
+MPEG-TS (.TS file):
+Video codecs - MPEG-1, MPEG-2, MPEG4, H.264 (AVC), H.265 (HEVC), H.266 (VVC), Chinese AVS, AVS2, AVS3, Dirac, VC-1, JPEG-2000
+Audio codecs - MP2, MP3, AAC, AC-3, E-AC-3, DTS, DTS Express, DTS HD, TrueHD, Opus, PCM Blu-ray
+
+M2TS (Blu-ray .M2TS file):
+Video codecs - MPEG-2, H.264, VC-1, HEVC
+Audio codecs - PCM Blu-ray, AC-3, E-AC-3, DTS, DTS Express, DTS-HD, TrueHD
+
+FLV (.FLV Flash video):
+Video codecs - Flash Video, Flash Screen V1, Flash Screen V2, VP6F, VP6A, H.264, HEVC, VP9, AV1
+Audio codecs - 8-bit unsigned/16-bit PCM LE/BE, AAC, SWF ADPCM, Speex, MP3, Nellymoser, PCM Mulaw & Alaw
+
+Limitations on FFmpeg and FLV:
+MPEG-4 is experimental on FLV container.
+Speex is only supported for mono and 16 KHZ.
+MP3 sample rate of 11.025, 22.05, 44.1 and 48 kHz accepts to mux in FLV container.
+
+WMV (.WMV Windows Media):
+Video codecs - Windows Media V7/V8/V9, Microsoft MPEG-4 part 2 variant 1/2/3, H.264, VC-1
+Audio codecs - Windows Media Audio V1/V2/V9, WMA 9 Voice, WMA 9.2 Lossless, WMA 9.2/10 Professional, AAC LC
+
+SWF (.SWF ShockWave Flash):
+Video codecs - Flash Video, Flash Screen V1, VP6F, VP6A, PNG & MJPEG
+Audio codecs - PCM 16-bit LE, SWF ADPCM, MP3, Nellymoser
+
+Limitations on FFmpeg and SWF:
+On MP3 Audio codec, only accepts 11.025, 22.05 and 44.1 kHz sample rate on SWF container.
+FFmpeg supports only to mux MP3 audio codec in SWF format.

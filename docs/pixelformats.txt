@@ -1,0 +1,50 @@
+Pixel formats of list video codecs
+
+Written by Martin Eesmaa
+
+-----------------------------------------------
+
+yuv411p: Cirrus Logic, DV Video
+yuv420p: ASV1, ASV2, libaom AV1, librav1e AV1, SVT-AV1, AV1 NVENC, AV1 AMF, AVS2, Chinese AVS, VC-2, DV Video
+yuv422p: libaom AV1, librav1e AV1, VC-2, DNxHD, DV Video
+yuv444p: libaom AV1, librav1e AV1, AV1 NVENC, VC-2
+yuvj420p: AMV, librav1e AV1
+yuvj444p: librav1e AV1
+yuv420p10le: libaom AV1, librav1e AV1, SVT-AV1, VC-2
+yuv422p10le: libaom AV1, GoPro CineForm HD, VC-2, DNxHD
+yuv444p10le: libaom AV1, VC-2, DNxHD
+yuv420p12le: libaom AV1, librav1e AV1, VC-2
+yuv422p10le: libaom AV1, VC-2
+yuv422p12le: librav1e AV1
+yuv444p10le: librav1e AV1
+yuv444p12le: librav1e AV1, VC-2
+yuv444p16le: AV1 NVENC
+rgb24: APNG, Cinepak
+rgba: APNG, AV1 NVENC
+rgb48le: APNG
+rgba64be: APNG
+pal8: APNG
+gray: APNG, libaom AV1, Cinepak
+gray10le: libaom AV1
+gray12le: libaom AV1
+ya8: APNG
+gray16be: APNG
+ya16be: APNG
+gbrp: libaom AV1, AV1 NVENC
+gbrp10le: libaom AV1, DNxHD
+gbrp12le: libaom AV1, GoPro CineForm HD
+gbrp16le: AV1 NVENC
+gbrap12le: GoPro CineForm HD
+nv12: AV1 NVENC, AV1 QSV, AV1 AMF
+p010le: AV1 NVENC, AV1 QSV
+p016le: AV1 NVENC
+bgr0: AV1 NVENC
+bgra: AV1 NVENC
+rgb0: AV1 NVENC
+x2rgb10le: AV1 NVENC
+x2bgr10le: AV1 NVENC
+cuda: AV1 NVENC
+d3d11: AV1 NVENC, AV1 AMF
+qsv: AV1 QSV
+dxva2_vld: AV1 AMF
+vaapi: AV1 VAAPI, 
