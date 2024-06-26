@@ -25,6 +25,17 @@ MPEG-4 is experimental on FLV container.
 Speex is only supported for mono and 16 KHZ.
 MP3 sample rate of 11.025, 22.05, 44.1 and 48 kHz accepts to mux in FLV container.
 
+MPEG-4 Part 14 (.MP4):
+Video codecs - H.264, HEVC, VVC, VP9, AV1, MPEG-4 Part 2
+Audio codecs - AAC LC, AAC HE v1/v2, xHE-AAC, MP1, MP2, MP3, Opus, FLAC, ALAC, MPEG-4 ALS, TwinVQ, AC-3, E-AC-3, AC-4
+
+Limitations on FFmpeg and MP4:
+VP9 and AV1 came late for support.
+Also for audio codecs of FLAC, ALAC, and Opus just came support about in 2018.
+Most compatability uses commonly for H.264/HEVC video and AAC LC & AAC HE v1/v2.
+FFmpeg supports decoding only for MPEG-4 ALS and TwinVQ, but encoders are available on external tools. 
+Unofficial FFmpeg AC-4 decode support is available, encoding can be done via Dolby Encoding Engine.
+
 WMV (.WMV Windows Media):
 Video codecs - Windows Media V7/V8/V9, Microsoft MPEG-4 part 2 variant 1/2/3, H.264, VC-1
 Audio codecs - Windows Media Audio V1/V2/V9, WMA 9 Voice, WMA 9.2 Lossless, WMA 9.2/10 Professional, AAC LC
