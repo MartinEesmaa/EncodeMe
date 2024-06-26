@@ -4,22 +4,33 @@ Written by Martin Eesmaa
 
 -----------------------------------------------
 
-yuv411p: Cirrus Logic, DV Video
-yuv420p: ASV1, ASV2, libaom AV1, librav1e AV1, SVT-AV1, AV1 NVENC, AV1 AMF, AVS2, Chinese AVS, VC-2, DV Video
-yuv422p: libaom AV1, librav1e AV1, VC-2, DNxHD, DV Video
-yuv444p: libaom AV1, librav1e AV1, AV1 NVENC, VC-2
+yuv410p: FFV1
+yuv411p: Cirrus Logic, DV Video, FFV1
+yuv420p: ASV1, ASV2, libaom AV1, librav1e AV1, SVT-AV1, AV1 NVENC, AV1 AMF, AVS2, Chinese AVS, VC-2, DV Video, FFV1, FLV, H.261, H.263, H.263+
+yuva420p: FFV1
+yuva422p: FFV1
+yuv422p: libaom AV1, librav1e AV1, VC-2, DNxHD, DV Video, FFV1
+yuv440p: FFV1
+yuv444p: libaom AV1, librav1e AV1, AV1 NVENC, VC-2, FFV1
+yuva444p: FFV1
 yuvj420p: AMV, librav1e AV1
 yuvj444p: librav1e AV1
-yuv420p10le: libaom AV1, librav1e AV1, SVT-AV1, VC-2
-yuv422p10le: libaom AV1, GoPro CineForm HD, VC-2, DNxHD
+yuv420p9le: FFV1
+yuv420p10le: libaom AV1, librav1e AV1, SVT-AV1, VC-2, FFV1
+yuv422p9le: FFV1
+yuv422p10le: libaom AV1, GoPro CineForm HD, VC-2, DNxHD, FFV1
 yuv444p10le: libaom AV1, VC-2, DNxHD
 yuv420p12le: libaom AV1, librav1e AV1, VC-2
+yuv420p16le: FFV1
 yuv422p10le: libaom AV1, VC-2
 yuv422p12le: librav1e AV1
+yuv422p16le: FFV1
+yuv444p9le: FFV1
 yuv444p10le: librav1e AV1
 yuv444p12le: librav1e AV1, VC-2
-yuv444p16le: AV1 NVENC
+yuv444p16le: AV1 NVENC, FFV1
 rgb24: APNG, Cinepak
+bgr24: FlashSV, FlashSV2
 rgba: APNG, AV1 NVENC
 rgb48le: APNG
 rgba64be: APNG
@@ -38,8 +49,8 @@ gbrap12le: GoPro CineForm HD
 nv12: AV1 NVENC, AV1 QSV, AV1 AMF
 p010le: AV1 NVENC, AV1 QSV
 p016le: AV1 NVENC
-bgr0: AV1 NVENC
-bgra: AV1 NVENC
+bgr0: AV1 NVENC, FFV1
+bgra: AV1 NVENC, FFV1
 rgb0: AV1 NVENC
 x2rgb10le: AV1 NVENC
 x2bgr10le: AV1 NVENC
