@@ -36,6 +36,13 @@ Most compatability uses commonly for H.264/HEVC video and AAC LC & AAC HE v1/v2.
 FFmpeg supports decoding only for MPEG-4 ALS and TwinVQ, but encoders are available on external tools. 
 Unofficial FFmpeg AC-4 decode support is available, encoding can be done via Dolby Encoding Engine.
 
+3GPP Third Generation Partnership Project (.3GP):
+Video codecs - MPEG-4, H.263, AVC
+Audio codecs - AMR-NB, AMR-WB, AMR-WB+, AAC, AAC HE v1, AAC HE v2
+
+Limitations on FFmpeg and 3GP:
+Most compatability of old mobile devices uses commonly for MPEG-4/H.263 video and AMR-NB.
+
 WMV (.WMV Windows Media):
 Video codecs - Windows Media V7/V8/V9, Microsoft MPEG-4 part 2 variant 1/2/3, H.264, VC-1
 Audio codecs - Windows Media Audio V1/V2/V9, WMA 9 Voice, WMA 9.2 Lossless, WMA 9.2/10 Professional, AAC LC
