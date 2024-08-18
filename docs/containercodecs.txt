@@ -26,7 +26,7 @@ Speex is only supported for mono and 16 KHZ.
 MP3 sample rate of 11.025, 22.05, 44.1 and 48 kHz accepts to mux in FLV container.
 
 MPEG-4 Part 14 (.MP4):
-Video codecs - H.264, HEVC, VVC, VP9, AV1, MPEG-4 Part 2
+Video codecs - H.264, HEVC, VVC, VP9, AV1, MPEG-4 Part 2, MPEG-1, MPEG-2
 Audio codecs - AAC LC, AAC HE v1/v2, xHE-AAC, MP1, MP2, MP3, Opus, FLAC, ALAC, MPEG-4 ALS, TwinVQ, AC-3, E-AC-3, AC-4
 
 Limitations on FFmpeg and MP4:
