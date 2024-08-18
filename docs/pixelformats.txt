@@ -6,15 +6,16 @@ Written by Martin Eesmaa
 
 yuv410p: FFV1
 yuv411p: Cirrus Logic, DV Video, FFV1
-yuv420p: ASV1, ASV2, libaom AV1, librav1e AV1, SVT-AV1, AV1 NVENC, AV1 AMF, AVS2, Chinese AVS, VC-2, DV Video, FFV1, FLV, H.261, H.263, H.263+
+yuv420p: ASV1, ASV2, libaom AV1, librav1e AV1, SVT-AV1, AV1 NVENC, AV1 AMF, AVS2, Chinese AVS, VC-2, DV Video, FFV1, FLV, H.261, H.263, H.263+, MagicYUV, Motion JPEG, MPEG-1, MPEG-2, MPEG-4, MS MPEG-4 v2, MS MPEG-4 v3
 yuva420p: FFV1
 yuva422p: FFV1
-yuv422p: libaom AV1, librav1e AV1, VC-2, DNxHD, DV Video, FFV1
+yuv422p: libaom AV1, librav1e AV1, VC-2, DNxHD, DV Video, FFV1, HuffYUV, MagicYUV, Motion JPEG, MPEG-2
 yuv440p: FFV1
-yuv444p: libaom AV1, librav1e AV1, AV1 NVENC, VC-2, FFV1
-yuva444p: FFV1
-yuvj420p: AMV, librav1e AV1
-yuvj444p: librav1e AV1
+yuv444p: libaom AV1, librav1e AV1, AV1 NVENC, VC-2, FFV1, MagicYUV, Motion JPEG
+yuva444p: FFV1, MagicYUV
+yuvj420p: AMV, librav1e AV1, Motion JPEG
+yuvj422p: Motion JPEG
+yuvj444p: librav1e AV1, Motion JPEG
 yuv420p9le: FFV1
 yuv420p10le: libaom AV1, librav1e AV1, SVT-AV1, VC-2, FFV1
 yuv422p9le: FFV1
@@ -22,36 +23,41 @@ yuv422p10le: libaom AV1, GoPro CineForm HD, VC-2, DNxHD, FFV1
 yuv444p10le: libaom AV1, VC-2, DNxHD
 yuv420p12le: libaom AV1, librav1e AV1, VC-2
 yuv420p16le: FFV1
-yuv422p10le: libaom AV1, VC-2
+yuv422p10le: libaom AV1, VC-2, ProRes
 yuv422p12le: librav1e AV1
 yuv422p16le: FFV1
 yuv444p9le: FFV1
-yuv444p10le: librav1e AV1
+yuv444p10le: librav1e AV1, ProRes
 yuv444p12le: librav1e AV1, VC-2
 yuv444p16le: AV1 NVENC, FFV1
-rgb24: APNG, Cinepak
+yuva444p10le: ProRes
+rgb24: APNG, Cinepak, HuffYUV, Quicktime RLE
 bgr24: FlashSV, FlashSV2
-rgba: APNG, AV1 NVENC
+rgba: APNG, AV1 NVENC, Hap
 rgb48le: APNG
 rgba64be: APNG
-pal8: APNG
-gray: APNG, libaom AV1, Cinepak
+pal8: APNG, Microsoft RLE
+gray: APNG, libaom AV1, Cinepak, MagicYUV, Quicktime RLE
 gray10le: libaom AV1
 gray12le: libaom AV1
 ya8: APNG
 gray16be: APNG
 ya16be: APNG
-gbrp: libaom AV1, AV1 NVENC
+gbrp: libaom AV1, AV1 NVENC, MagicYUV
 gbrp10le: libaom AV1, DNxHD
 gbrp12le: libaom AV1, GoPro CineForm HD
 gbrp16le: AV1 NVENC
+gbrap: MagicYUV
 gbrap12le: GoPro CineForm HD
 nv12: AV1 NVENC, AV1 QSV, AV1 AMF
 p010le: AV1 NVENC, AV1 QSV
 p016le: AV1 NVENC
 bgr0: AV1 NVENC, FFV1
-bgra: AV1 NVENC, FFV1
+bgra: AV1 NVENC, FFV1, HuffYUV
+argb: Quicktime RLE
 rgb0: AV1 NVENC
+rgb555le: Microsoft Video 1
+rgb555be: Quicktime RLE
 x2rgb10le: AV1 NVENC
 x2bgr10le: AV1 NVENC
 cuda: AV1 NVENC
