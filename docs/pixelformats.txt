@@ -20,35 +20,42 @@ yuv420p9le: FFV1
 yuv420p10le: libaom AV1, librav1e AV1, SVT-AV1, VC-2, FFV1
 yuv422p9le: FFV1
 yuv422p10le: libaom AV1, GoPro CineForm HD, VC-2, DNxHD, FFV1
-yuv444p10le: libaom AV1, VC-2, DNxHD
-yuv420p12le: libaom AV1, librav1e AV1, VC-2
+yuv420p12le: libaom AV1, librav1e AV1, VC-2, FFV1
+yuva420p12le: FFV1
 yuv420p16le: FFV1
-yuv422p10le: libaom AV1, VC-2, ProRes
-yuv422p12le: librav1e AV1
+yuva420p16le: FFV1
+yuv422p10le: libaom AV1, VC-2, ProRes, FFV1
+yuv422p12le: librav1e AV1, FFV1
 yuv422p16le: FFV1
+yuv440p10le: FFV1
+yuv444p12le: FFV1
+yuv444p14le: FFV1
 yuv444p9le: FFV1
-yuv444p10le: librav1e AV1, ProRes
-yuv444p12le: librav1e AV1, VC-2
+yuv444p10le: libaom AV1, VC-2, DNxHD, librav1e AV1, ProRes, FFV1
+yuv444p12le: librav1e AV1, VC-2, FFV1
 yuv444p16le: AV1 NVENC, FFV1
-yuva444p10le: ProRes
+yuva444p10le: ProRes, FFV1
 rgb24: APNG, Cinepak, HuffYUV, Quicktime RLE
 bgr24: FlashSV, FlashSV2
 rgba: APNG, AV1 NVENC, Hap
-rgb48le: APNG
-rgba64be: APNG
+rgb48le: APNG, FFV1
+rgba64be: APNG, FFV1
 pal8: APNG, Microsoft RLE
-gray: APNG, libaom AV1, Cinepak, MagicYUV, Quicktime RLE
-gray10le: libaom AV1
-gray12le: libaom AV1
-ya8: APNG
+gray: APNG, libaom AV1, Cinepak, MagicYUV, Quicktime RLE, FFV1
+gray10le: libaom AV1, FFV1
+gray12le: libaom AV1, FFV1
+gray14le: FFV1
+ya8: APNG, FFV1
 gray16be: APNG
 ya16be: APNG
 gbrp: libaom AV1, AV1 NVENC, MagicYUV
-gbrp10le: libaom AV1, DNxHD
+gbrp10le: libaom AV1, DNxHD, FFV1
 gbrp12le: libaom AV1, GoPro CineForm HD
 gbrp16le: AV1 NVENC
 gbrap: MagicYUV
+gbrap10le: FFV1
 gbrap12le: GoPro CineForm HD
+gbrap14le: FFV1
 nv12: AV1 NVENC, AV1 QSV, AV1 AMF
 p010le: AV1 NVENC, AV1 QSV
 p016le: AV1 NVENC
