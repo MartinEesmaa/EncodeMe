@@ -39,13 +39,17 @@ The tool uses to detect any media files when using "Detect fake" tab for fake au
 
 - Duplicated frames must be reencoded to deduplicate video of frames. **It's experimental.**
 
+- Duplicated frames can cut the half frames to deduplicate statically.
+
+- Video or/and audio can speed up or slow down by affecting frame per second and audio sample rate frequency change.
+
 - Fake video size may be upscaled, needs to be manually check after resized video by human. **It's experimental.**
 
 - Detects fake pixel format for example the original Y4M file is pixel format of 8 bit and upsampled to 10-bit file. 10-bit Y4M file to 8-bit Y4M is match checksum using FFmpeg MD5 format are same video without loss.
 
 - Audio bits & fake audio channels can detect when fake original like 32-bit than original 16-bit or 24-bit.
 
-- Fake audio sample rate of upsampled have to be done on SoX resampler to get back best high quality.
+- Fake audio sample rate of upsampled have to be done on SoX resampler to get back best high quality. **It's experimental.**
 
 - Check if the audio is lossless or not with cutoff.
 
